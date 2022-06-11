@@ -30,4 +30,16 @@ public class Employee {
     public List<Employee> getSubordinates() {
         return this.subordinates;
     }
+
+
+    @Override
+    public String toString() {
+        return "{Employee: [" +
+            " name='" + name + "'" +
+            ", dept='" + dept + "'" +
+            ", salary='" +salary + "'" +
+            ", subordinates='" + getSubordinates() + "'" +
+            "]}";
+    }
+   
 }
