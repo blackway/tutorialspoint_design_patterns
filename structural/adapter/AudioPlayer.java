@@ -1,5 +1,7 @@
 package structural.adapter;
 
+import structural.adapter.pattern.MediaPlayer;
+
 public class AudioPlayer implements MediaPlayer {
     MediaAdapter mediaAdapter;
 
